@@ -66,7 +66,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: ""
+    url: "https://shawnliuva.github.io/markdown-resume/"
   },
 
   pwa,
