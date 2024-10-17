@@ -32,7 +32,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      googleFontsKey: ""
+      googleFontsKey: "AIzaSyAOJPYAtGqPOJN1WJFmFeh9yQ4V_XEcAzk"
     }
   },
 
@@ -66,7 +66,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: "https://shawnliuva.github.io/markdown-resume/"
+    url: ""
   },
 
   pwa,
