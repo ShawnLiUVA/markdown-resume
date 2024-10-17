@@ -13,7 +13,8 @@
     "release:pkg": "pnpm release:pkg:check && pnpm release:pkg:version && pnpm -r publish",
     "release:pkg:check": "pnpm lint && pnpm build:pkg",
     "release:pkg:version": "bumpp package.json packages/*/package.json --commit \"build: publish v%s\" --all --tag --push",
-    "serve": "pnpm --filter=site serve"
+    "serve": "pnpm --filter=site serve",
+    "generate": "nuxi generate"
   },
   "prettier": "@renovamen/prettier-config",
   "devDependencies": {
